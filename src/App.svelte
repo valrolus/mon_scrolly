@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
 
-	import LoremIpsum from './LoremIpsum.svelte'
+import LoremIpsum from './LoremIpsum.svelte'
 
 	import Introduction from './Introduction.svelte'
 
@@ -18,15 +18,15 @@
 	
 	
   let stepsData = [
-    { "text": "En <em>2019</em>, le nombre de spectateurs s'élevait à <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>	19 877 878 </strong></mark>, marquant ainsi un pic de fréquentation avant les perturbations causées par la pandémie de COVID-19" },
-    { "text": "En <em>2020</em> , le nombre de spectateurs a chuté drastiquement à <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>5 538 934</strong></mark>, reflétant l'impact des restrictions sanitaires liées à la pandémie de COVID-19 sur l'industrie cinématographique belge." },
-    { "text": "En <em>2021</em> , le nombre de spectateurs a affiché une légère augmentation pour atteindre <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>7 453 797</strong></mark>, témoignant d'une timide reprise après les perturbations majeures de l'année précédente." },
-		{ "text": "En <em>2022</em> , le nombre de spectateurs a continué de progresser, s'élevant à <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>13 683 579</strong></mark>, bien qu'il n'ait pas encore atteint les niveaux pré-pandémiques." },
-		{ "text": "En résumé, les chiffres montrent une amélioration encourageante pour l'industrie cinématographique belge. " },
+    { "text": "En <em>2019</em>, le nombre de spectateurs s'Ã©levait Ã  <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>	19 877 878 </strong></mark>, marquant ainsi un pic de frÃ©quentation avant les perturbations causÃ©es par la pandÃ©mie de COVID-19" },
+    { "text": "En <em>2020</em> , le nombre de spectateurs a chutÃ© drastiquement Ã  <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>5 538 934</strong></mark>, reflÃ©tant l'impact des restrictions sanitaires liÃ©es Ã  la pandÃ©mie de COVID-19 sur l'industrie cinÃ©matographique belge." },
+    { "text": "En <em>2021</em> , le nombre de spectateurs a affichÃ© une lÃ©gÃ¨re augmentation pour atteindre <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>7 453 797</strong></mark>, tÃ©moignant d'une timide reprise aprÃ¨s les perturbations majeures de l'annÃ©e prÃ©cÃ©dente." },
+		{ "text": "En <em>2022</em> , le nombre de spectateurs a continuÃ© de progresser, s'Ã©levant Ã  <mark style='background-color: #4328E7; color:white;padding: 2px; border-radius: 5px;'><strong>13 683 579</strong></mark>, bien qu'il n'ait pas encore atteint les niveaux prÃ©-pandÃ©miques." },
+		{ "text": "En rÃ©sumÃ©, les chiffres montrent une amÃ©lioration encourageante pour l'industrie cinÃ©matographique belge. " },
   ];
 
-	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a à l'écran)
-	// ça on ne touche pas sinon tout se casse !
+	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a Ã  l'Ã©cran)
+	// Ã§a on ne touche pas sinon tout se casse !
 
   onMount(() => {
     observer = new IntersectionObserver((entries) => {
@@ -48,7 +48,7 @@
   });
 </script>
 
-<h1>En 2022, le niveau de fréquentation des cinémas na pas retrouvé son niveau davant-crise</h1>
+<h1>En 2022, le niveau de frÃ©quentation des cinÃ©mas na pas retrouvÃ© son niveau davant-crise</h1>
 
 <Introduction/>
 
@@ -80,9 +80,9 @@
 <style>
 
 	/* Ici les valeurs pour l'ensemble de la page > 
-	peut nécessiter des modifs de couleurs dans Flourish 
+	peut nÃ©cessiter des modifs de couleurs dans Flourish 
 	pour s'assurer que le graphe soit tjs bien visible (titre de graphique noir sur
-	fond de page noir,ça ne se voit pas bien...*/
+	fond de page noir,Ã§a ne se voit pas bien...*/
 
 	:global(body) {
     background-color: white; 
@@ -147,7 +147,7 @@
     margin: auto;
   }
 
-	/* Pour adapter la vue en mobile: steps centrées par dessus le graphique */
+	/* Pour adapter la vue en mobile: steps centrÃ©es par dessus le graphique */
 
   @media screen and (max-width: 768px) {
     .section-container {
