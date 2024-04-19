@@ -48,7 +48,7 @@ import LoremIpsum from './LoremIpsum.svelte'
   });
 </script>
 
-<h1>En 2022, le niveau de fréquentation des cinémas na pas retrouvé son niveau davant-crise</h1>
+<h1>En 2022, le niveau de fréquentation des cinémas n'a pas retrouvé son niveau d'avant-crise</h1>
 
 <Introduction/>
 
